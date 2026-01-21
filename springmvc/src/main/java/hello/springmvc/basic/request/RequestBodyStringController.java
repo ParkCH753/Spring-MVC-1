@@ -1,4 +1,4 @@
-package hello.springmvc.basic.reqeustbody;
+package hello.springmvc.basic.request;
 
 import jakarta.servlet.ServletInputStream;
 import jakarta.servlet.http.HttpServletRequest;
@@ -20,7 +20,7 @@ import java.nio.charset.StandardCharsets;
 @Slf4j
 @Controller
 @RequestMapping("/")
-class requestBodyStringController {
+class RequestBodyStringController {
 
     @PostMapping("/request-body-string-v1")
     public void requestBodyString(HttpServletRequest request, HttpServletResponse response) throws IOException {
