@@ -1,4 +1,4 @@
-package hello.springmvc.basic.requestparam;
+package hello.springmvc.basic.request;
 
 import hello.springmvc.basic.HelloData;
 import lombok.extern.slf4j.Slf4j;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-public class AttributeController {
+public class RequestAttributeController {
 
     /**
      * @ModelAttribute 사용

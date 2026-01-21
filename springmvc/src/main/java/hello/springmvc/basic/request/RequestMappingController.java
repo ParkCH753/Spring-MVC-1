@@ -1,11 +1,11 @@
-package hello.springmvc.basic.requestmapping;
+package hello.springmvc.basic.request;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class MappingController {
+public class RequestMappingController {
 
     private final Logger log = LoggerFactory.getLogger(this.getClass());
 
